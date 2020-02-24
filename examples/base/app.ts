@@ -92,3 +92,11 @@ axios({
 //   url: '/base/post',
 //   data: searchParams
 // })
+
+// Axios 方法重载
+axios('/base/get',{
+  method: 'get',
+  params: {
+    foo: ['bar', 'baz']
+  }
+})
